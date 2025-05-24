@@ -44,6 +44,37 @@ nav ul li {
 
 }
 
+.navDireita {
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+}
+
+.navDireita input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: #B12672;
+    font-size: 20px;
+
+}
+
+.navDireita input::placeholder {
+    color: white;
+    font-size: 20px;
+}
+
+.navDireita input:focus {
+    background-color: #7C1E52;
+    border: none;
+    outline: none; 
+    border: none; 
+}
+
+
 header {
 font-size: larger;
 background-image: url('../img/ImagemBonitaVinho.jpg');
@@ -121,3 +152,10 @@ footer a:any-link{
     background-color: #B12672;
     color: white;
 }
+
+.containerVinhos div:hover {
+    transition: 0.2s;
+    scale: 105%;
+    border: solid white;
+}
+
