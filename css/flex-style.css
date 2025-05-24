@@ -45,11 +45,25 @@ nav ul li {
 }
 
 header {
-text-align: center;
 font-size: larger;
+background-image: url('../img/ImagemBonitaVinho.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+
+height: 400px;
+display: flex;             
+align-items: center;     
+justify-content: center; 
+color: white;    
 }
 
+body{
+    background-color: rgb(14, 15, 0);
+}
 .containerVinhos {
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -68,5 +82,42 @@ font-size: larger;
 }
 
 .containerVinhos h3{
-    
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.containerVinhos p{
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.containerVinhos img{
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a:any-link{
+    color: white;
+}
+
+::selection {
+    background-color: #B12672;
+    color: white;
 }
