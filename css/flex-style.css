@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #B12672;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 20px; 
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#navTitulo {
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#navHome:hover {
+    transition: 0.1s;
+    color: white;
+}
+
+
+.icone {
+    font-size: 24px; 
+    cursor: pointer;
+    margin-right: 50px;
+    font-size: 40px;
+
+}
+
+header {
+text-align: center;
+font-size: larger;
+}
+
+.containerVinhos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.containerVinhos div {
+    background-color: #F0DACD;
+    width: 450px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.containerVinhos h3{
+    
+}
