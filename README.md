@@ -47,3 +47,10 @@ Este projeto representa a **página inicial** dessa nova plataforma, com foco em
 ## 📂 Repositório GitHub
 
 [https://github.com/JoaoAbe/CP3-Frontend](https://github.com/JoaoAbe/CP3-Frontend)
+
+
+## ✅ Link do GitHub Pages
+
+🔗 [Acesse o site clicando aqui](https://joaoabe.github.io/CP3-Frontend/)
+
+---
